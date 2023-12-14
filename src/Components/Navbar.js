@@ -8,17 +8,6 @@ const NavigationBar = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         {/* Use an <img> element for the logo */}
-        <Navbar.Brand>
-          <Link to={'/'}>
-            <img 
-              src={logo}
-              alt="Your Logo"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />
-          </Link>
-        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto me-5"> {/* Align items to the right with margin */}
